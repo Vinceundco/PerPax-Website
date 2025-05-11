@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>PerPax – Startseite</title>
 
-    <link rel="stylesheet" href="style.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet" />
 
-    <title>PerPax Ensemble</title>
+  <!-- Eigene Styles -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <h1>PerPax Ensemble</h1>
-    <p>Willkommen auf der PerPax Ensemble Webseite!</p>
+  <!-- NAVIGATION -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="PerPax Logo" />
+      </a>
+      <nav>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="about.html">Über uns</a></li>
+          <li><a href="events.html">Termine</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HAUPTINHALT -->
+  <main>
+    <section class="hero">
+      <h1>PerPax</h1>
+      <p>Wir bringen Musik in Ihre Herzen.</p>
+      <div class="btn-group">
+        <a href="events.html" class="btn">Termine &amp; Konzerte</a>
+        <a href="contact.html" class="btn">Kontakt</a>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>Kurzinfos</h2>
+      <p>PerPax ist ein junges Ensemble, das klassische und moderne Musik miteinander verbindet. Bleiben Sie dran für unsere nächsten Highlights!</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/euer_instagram_name" target="_blank">
+        <img src="assets/instagram.png" alt="Instagram" />
+      </a>
+      <!-- weitere Social-Icons hier -->
+    </div>
+    <div class="footer-legal">
+      <a href="impressum.html">Impressum</a> |
+      <a href="datenschutz.html">Datenschutz</a> |
+      <a href="cookie.html">Cookies</a>
+    </div>
+    <p>&copy; 2025 PerPax</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/script.js"></script>
 </body>
 </html>
